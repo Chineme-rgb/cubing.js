@@ -3,18 +3,18 @@ import { PGPuzzleLoader } from "../../async/async-pg3d";
 import { getCached } from "../../async/lazy-cached";
 import type { AlgTransformData } from "../../cubing-private";
 import {
-  ftoStickering,
-  ftoStickerings,
+  masterftoStickering,
+  masterftoStickerings,
 } from "../../stickerings/fto-stickerings";
 import type { StickeringMask } from "../../stickerings/mask";
-import { ftoKeyMapping } from "./ftoKeyMapping";
+import { ftoKeyMapping } from "./masterftoKeyMapping";
 
-class FTOPuzzleLoader extends PGPuzzleLoader {
+class masterFTOPuzzleLoader extends PGPuzzleLoader {
   constructor() {
     super({
       pgID: "FTO",
       id: "fto",
-      fullName: "Face-Turning Octahedron",
+      fullName: "Master Face-Turning Octahedron",
       inventedBy: ["Karl Rohrbach", "David Pitcher"], // http://twistypuzzles.com/cgi-bin/puzzle.cgi?pkey=1663
       inventionYear: 1983, // http://twistypuzzles.com/cgi-bin/puzzle.cgi?pkey=1663
     });
