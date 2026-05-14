@@ -34,6 +34,9 @@ export const ftoKeyMapping: { [key: number | string]: AlgLeaf } = {
   KeyZ: new Move("BL'"),
   KeyB: new Move("T"),
   Period: new Move("BR"),
+  Colon: new Move("2L"),
+  Slash: new Move("2R"),
+  
 
   Backquote: new Pause(),
 };
