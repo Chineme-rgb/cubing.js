@@ -7,7 +7,7 @@ import {
   masterftoStickerings,
 } from "../../stickerings/fto-stickerings";
 import type { StickeringMask } from "../../stickerings/mask";
-import { ftoKeyMapping } from "./masterftoKeyMapping";
+import { ftoKeyMapping } from "./masterFtoKeyMapping";
 
 class masterFTOPuzzleLoader extends PGPuzzleLoader {
   constructor() {
