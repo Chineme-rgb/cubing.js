@@ -35,6 +35,8 @@ class masterFTOPuzzleLoader extends PGPuzzleLoader {
         R: "L",
         l: "r",
         r: "l",
+        2L: "2R",
+        2R: "2L"
         Lw: "Rw",
         Rw: "Lw",
         Lv: "Rv",
